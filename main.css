@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font: 12px monospace;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.title {
+  flex-basis: fill;
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.avatar {
+  width: 128px;
+  height: 128px;
+}
